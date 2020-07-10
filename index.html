@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>3D Cube</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <input type="range" class="range"
+        oninput="document.getElementById('wrap').style.WebkitPerspective = this.value+'px';" value="500" min="150"
+        max="500" />
+    <div class="wrapper" id="wrap">
+        <div class="cube">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+    </div>
+</body>
+
+</html>
